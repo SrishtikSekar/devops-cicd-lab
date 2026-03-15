@@ -15,7 +15,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t SrishtikSekar/2023bcs0220 .'
+                sh 'docker build -t 2023bcs0220gsrishtiksekar/2023bcs0220 .'
             }
         }
 
@@ -27,7 +27,7 @@ pipeline {
 
         stage('Push Image') {
             steps {
-                sh 'docker push SrishtikSekar/2023bcs0220'
+                sh 'docker push 2023bcs0220gsrishtiksekar/2023bcs0220'
             }
         }
 
